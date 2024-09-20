@@ -1,0 +1,127 @@
+* {
+  /* margin: 0;
+  padding: 0;
+  box-sizing: border-box; */
+}
+
+body {
+  font-family: Arial;
+  background-color: #f8f8f8;
+  padding: 30px;
+  color: #333;
+  background-image: url("R.jpeg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+.app {
+  display: block;
+  max-width: 600px;
+  margin: 0 auto 300px;
+  background-color: #f8f8f8;
+  opacity: 0.9;
+  padding: 20px 30px;
+  border-radius: 10px;
+}
+
+h1 {
+  text-align: center;
+  text-shadow: 1px 1px 10px rgba(0, 0, 0, 0.5);
+}
+
+h2 {
+  margin-bottom: 10px;
+  text-shadow: 1px 1px 10px rgba(0, 0, 0, 0.5);
+}
+
+p {
+  margin: 10px 0;
+}
+
+input {
+  box-sizing: border-box;
+}
+
+button {
+  background-color: #333974;
+  color: white;
+  padding: 10px 10px;
+  width: 100%;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  opacity: 0.8;
+  transition: 0.3s;
+}
+
+button:hover {
+  transition: 0.5s;
+  opacity: 1;
+  transform: scale(1.05);
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+.gasto-form {
+  padding-bottom: 1.5rem;
+}
+
+input,
+select {
+  padding: 20px;
+  margin-bottom: 20px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  width: 100%;
+}
+
+.complete {
+  background-color: #5cb85c;
+}
+
+.total {
+  padding-bottom: 20px;
+}
+
+.remove {
+  background-color: #d9534f;
+}
+
+.gasto-list {
+  margin-bottom: 20px;
+  padding-bottom: 20px;
+
+  border-bottom: 1px solid #555;
+}
+
+.gasto {
+  background-color: #fff;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+  padding: 10px;
+  margin-bottom: 15px;
+  border-radius: 5px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  transition: 0.5s;
+}
+
+.gasto:hover {
+  box-shadow: 0 0 30px rgba(0, 0, 0, 0.3);
+  transition: 0.5s;
+}
+
+.buttons {
+  flex: 10%;
+  display: flex;
+  gap: 10px;
+  padding: 20px;
+}
+
+.content {
+  flex: 80%;
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+}
